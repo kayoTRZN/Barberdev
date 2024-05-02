@@ -293,22 +293,21 @@ i {
   gap: 8px;
 }
 
-.btn-whatssapp {
+.btn-whatsapp {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 14px;
+  right: 24px;
   z-index: 99;
-  padding: 25px;
 }
-.btn-whatssapp Img {
+.btn-whatsapp Img {
   max-width: 74px;
   transition: transform 0.4s;
 }
-.btn-whatssapp img:hover {
+.btn-whatsapp img:hover {
   transform: scale(1.1);
 }
 
-.btn-whatssapp .tooltip-text {
+.btn-whatsapp .tooltip-text {
   visibility: hidden;
   position: absolute;
   width: 120px;
@@ -322,7 +321,7 @@ i {
   transition: opacity 0.4s;
 }
 
-.btn-whatssapp:hover .tooltip-text {
+.btn-whatsapp:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
 }
